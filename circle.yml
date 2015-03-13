@@ -1,0 +1,4 @@
+test:
+  post:
+    - mkdir -p $CIRCLE_TEST_RESULTS/junit
+    - cp /home/ubuntu/exemplo-casperjs-pageobjects/log.xml $CIRCLE_TEST_REPORTS/junit
