@@ -1,0 +1,22 @@
+{
+  "name": "exemplo-casperjs-pageobjects",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo com testes do CasperJS utilizando o pattern Page Objects, que fazem parte do post \"Usando Page Objects em testes com CasperJS\": http://goo.gl/c3jOH0",
+  "main": "teste.js",
+  "scripts": {
+    "test": "casperjs test teste.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanteixeira/exemplo-casperjs-pageobjects.git"
+  },
+  "author": "Stefan Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanteixeira/exemplo-casperjs-pageobjects/issues"
+  },
+  "homepage": "https://github.com/stefanteixeira/exemplo-casperjs-pageobjects",
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3"
+  }
+}
