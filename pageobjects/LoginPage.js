@@ -7,8 +7,8 @@ function LoginPage() {
 
 	this.login = function(email, senha) {
     	casper.then(function() {
-        	this.sendKeys('#email', 'stefanfk@gmail.com');
-        	this.sendKeys('#pass', 'teste123');
+        	this.sendKeys('#email', email);
+        	this.sendKeys('#pass', senha);
         	this.click('button[title="Entrar"]');
     	});
 	};
